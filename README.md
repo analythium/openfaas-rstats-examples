@@ -1,4 +1,4 @@
-# Examples Using the OpenFaaS R Templates
+# Examples Using the [OpenFaaS R Templates](https://github.com/analythium/openfaas-rstats-templates)
 
 This folder contains the following worked examples:
 
