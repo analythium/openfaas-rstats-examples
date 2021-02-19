@@ -1,0 +1,7 @@
+Package: OpenFaaStR
+Version: 0.0.1
+Imports:
+  forecast
+Remotes:
+SystemRequirements:
+VersionedPackages:

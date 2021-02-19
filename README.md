@@ -4,6 +4,7 @@ This folder contains the following worked examples:
 
 - [Hello World](00-hello/README.md)
 - [Principal Component Analysis](01-principal-components/README.md)
+- [Time Series Forecst](02-time-series-forecast/README.md)
 
 More examples are on the way.
 Please submit a PR if you have an interesting use case that
