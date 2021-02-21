@@ -29,7 +29,7 @@ export OPENFAAS_PREFIX="" # Populate with your Docker Hub username
 __Step 4.__ Log into your OpenFaaS instance (see more info [here](https://github.com/openfaas/workshop/blob/master/lab1b.md)):
 
 ```bash
-export OPENFAAS_URL="http://174.138.114.98:8080" # Populate with your OpenFaaS URL
+export OPENFAAS_URL="http://127.0.0.1:8080" # Populate with your OpenFaaS URL
 
 # This command retrieves your password
 PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode; echo)
