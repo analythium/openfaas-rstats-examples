@@ -277,7 +277,9 @@ Imports:
   forecast
 Remotes:
 SystemRequirements:
-  build-base,
+  gcc,
+  musl-dev,
+  g++,
   gfortran,
   linux-headers
 VersionedPackages:
