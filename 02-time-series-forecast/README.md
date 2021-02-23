@@ -263,3 +263,22 @@ Test the deployed instance: `OPENFAAS_URL/function/r-covid/us/deaths/4`.
 Check out and explore the OpenAPI documentation at `OPENFAAS_URL/function/r-covid/__docs__`.
 
 Note: all parameters are required with dynamic routing.
+
+## Use r-minimal base image
+
+Using the r-minimal base image to build the forecasting function halves the image size.
+
+The handler is the same, this is how the `DESCRIPTION` file looks like:
+
+```yaml
+Package: OpenFaaStR
+Version: 0.0.1
+Imports:
+  forecast
+Remotes:
+SystemRequirements:
+  build-base,
+  gfortran,
+  linux-headers
+VersionedPackages:
+```
