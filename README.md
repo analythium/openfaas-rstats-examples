@@ -8,8 +8,7 @@ This folder contains the following worked examples:
 
 More examples are on the way.
 Please submit a PR if you have an interesting use case that
-you'd like to see here, or add your suggestions to
-[this](https://github.com/analythium/openfaas-rstats-templates/issues/20) issue.
+you'd like to see here.
 
 ## Prerequisites
 
@@ -20,7 +19,7 @@ __Step 1.__ Install the [OpenFaaS CLI](https://docs.openfaas.com/cli/install/).
 __Step 2.__ Set up your [k8s, k3s, or faasd with OpenFaaS](https://docs.openfaas.com/deployment/).
 
 __Step 3.__ Use `docker login` to log into your registry of choice for pushing images.
-Export your Docher Hub user or organization name:
+Export your Docker Hub user or organization name:
 
 ```bash
 export OPENFAAS_PREFIX="" # Populate with your Docker Hub username
