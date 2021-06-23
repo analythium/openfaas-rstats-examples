@@ -8,6 +8,15 @@ We will create a function that pulls JSON data from public [COVID-19 data API](h
 
 You'll need the prerequisites listed [here](https://github.com/analythium/openfaas-rstats-templates/tree/master/examples).
 
+- [Time Series Forecast](#time-series-forecast)
+  - [Create a new function using a template](#create-a-new-function-using-a-template)
+  - [Customize the function](#customize-the-function)
+  - [Build, push, deploy the function](#build-push-deploy-the-function)
+  - [Testing](#testing)
+  - [Use URL parameters](#use-url-parameters)
+  - [Use dynamic routing](#use-dynamic-routing)
+  - [Use r-minimal base image](#use-r-minimal-base-image)
+
 ## Create a new function using a template
 
 Create a new function called `r-covid`.

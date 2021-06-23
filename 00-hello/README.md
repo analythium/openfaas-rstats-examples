@@ -6,6 +6,12 @@ This is a Hello World example using OpenFaaS R templates.
 
 You'll need the prerequisites listed [here](https://github.com/analythium/openfaas-rstats-templates/tree/master/examples).
 
+- [Hello](#hello)
+  - [Create a new function using a template](#create-a-new-function-using-a-template)
+  - [Build, push, deploy the function](#build-push-deploy-the-function)
+  - [Testing](#testing)
+  - [Customize the function](#customize-the-function)
+
 ## Create a new function using a template
 
 Create a new function called `r-hello`.

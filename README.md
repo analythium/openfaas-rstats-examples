@@ -48,3 +48,5 @@ __Step 5.__ Use the [`faas-cli`](https://github.com/openfaas/faas-cli) and pull 
 ```bash
 faas-cli template pull https://github.com/analythium/openfaas-rstats-templates
 ```
+
+Now you can pick one of the examples and continue.

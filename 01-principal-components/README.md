@@ -8,6 +8,12 @@ We will create a function that takes a multi-dimensional JSON array as input and
 
 You'll need the prerequisites listed [here](https://github.com/analythium/openfaas-rstats-templates/tree/master/examples).
 
+- [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+  - [Create a new function using a template](#create-a-new-function-using-a-template)
+  - [Customize the function](#customize-the-function)
+  - [Build, push, deploy the function](#build-push-deploy-the-function)
+  - [Testing](#testing)
+
 ## Create a new function using a template
 
 Create a new function called `r-pca`.
