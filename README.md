@@ -19,6 +19,14 @@ __Step 1.__ Install the [OpenFaaS CLI](https://docs.openfaas.com/cli/install/).
 
 __Step 2.__ Set up your [k8s, k3s, or faasd with OpenFaaS](https://docs.openfaas.com/deployment/).
 
+It is recommended to read the [OpenFaaS docs](https://docs.openfaas.com/) first
+and set up a local or remote [Kubernetes cluster](https://docs.openfaas.com/deployment/kubernetes/) or [faasd](https://docs.openfaas.com/deployment/faasd/) with
+OpenFaaS deployed. To get going quickly,
+follow the official OpenFaaS [workshop](https://docs.openfaas.com/tutorials/workshop/), or enroll into the free
+[Introduction to Serverless on Kubernetes](https://www.edx.org/course/introduction-to-serverless-on-kubernetes) course.
+
+> If you are looking for the smallest footprint (single node), the book [Serverless For Everyone Else](https://gumroad.com/a/494294131/fKOcw) by Alex Ellis is highly recommended.
+
 __Step 3.__ Use `docker login` to log into your registry of choice for pushing images.
 Export your Docker Hub user or organization name:
 
